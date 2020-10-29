@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.nav-container {
+    background: #FFFFFF;
+    width: 1440px;
+    height: 70px;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+      
+} 
+.logo {
+    margin-top: 25px;
+    margin-left: 71px;
+}
+.logo a{
+    text-decoration: none;
+    color: #000;
+}
+.divSearch {
+    width: 420px;
+    height: 40px;
+    margin-top: 25px;
+}
+.txtSearch {
+    float:left;
+    padding-left:5px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    width: 420px;
+    height: 40px;
+    margin-left: 4px;
+    top: 103px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 150%;
+    color: #6A737B;
+    background-image: url(images/search-icon.png);
+    background-repeat: no-repeat;
+    background-position: 365px 8px;
+}
+.location{
+    margin-top: 25px;
+}
+.location a{
+    font-family: Montserrat;
+    margin-top: 25px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 150%;
+    color: #6A737B;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.HelpContact{
+    margin-top: 25px;
+}
+.HelpContact a{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 150%;
+    text-transform: uppercase; 
+    color: #6A737B;
+    text-decoration: none;
+}
+.myAccount{
+    margin-top: 25px; 
+}
+.myAccount a{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 149%;   
+    color: #1B1B1B;
+    text-decoration: none;
+
+}
+.cart{
+    margin-top: 25px;
+}
+.cart a{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 149%;
+    color: #1B1B1B;
+    text-decoration: none;
+
+}
+ul{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    width: 1440px;
+    height: 50px;
+    margin-top: 25px;
+    margin-left: 27px;
+    border-bottom: 1px solid black;
+}
+.itens a{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 150%;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #1B1B1B;
+    text-decoration: none;
+}
+li{
+    list-style: none; 
+    margin-top: 15px;
+}
+.categoryBanner{
+    position: absolute;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 46px;
+    color: #1B1B1B;
+    left: 470px;
+    top: 230px;
+    z-index: 3;
+}
+.sneakers{
+    position: absolute; 
+    top: 180px; 
+    left: 730px;
+    z-index: 2;
+ }
+.banner-background{
+    top: 70px; 
+    left: 231px;
+    margin-top: 25px;
+    margin-left: 58px;
+}
+
+
+
+
+
